@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>NYC Spirit Animal</title>
+        <!-- Compiled and minified CSS -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <!-- Compiled and minified JavaScript -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    </head>
+    <body>
+        <h1>Find your NYC Spirit Animal</h1>
+        <form method="POST" action="results">
+            <p>What is your favorite food?</p>
+                <input name="food" type="radio" value="1" id="hotdog"> 
+                <label for="hotdog" style="font-size:12px;">Hot Dog</label><br>
+                
+                <input name="food" type="radio" value="2" id="pizza">
+                <label for="pizza" style="font-size:12px;">Pizza</label><br>
+                
+                <input name="food" type="radio" value="3" id="bagel"> 
+                <label for="bagel" style="font-size:12px;">Bagel</label><br>
+                
+                <input name="food" type="radio" value="0" id="thai">
+                <label for="thai" style="font-size:12px;">Thai</label><br>
+                
+            <p> What borough do you live in?</p>
+                <input name="boro" type="radio" value="4" id="manhattan"/> 
+                <label for="manhattan" style="font-size:12px;">Manhattan</label><br>
+                
+                <input name="boro" type="radio" value="3" id="brooklyn"/> 
+                <label for="brooklyn" style="font-size:12px;">Brooklyn</label><br>
+                
+                <input name="boro" type="radio" value="1" id="queens"/> 
+                <label for="queens" style="font-size:12px;">Queens</label><br>
+                
+                <input name="boro" type="radio" value="2" id="bronx"/> 
+                <label for="bronx" style="font-size:12px;">Bronx</label><br>
+                
+                <input name="boro" type="radio" value="0" id="statenisland"/> 
+                <label for="statenisland" style="font-size:12px;">Staten Island</label><br>
+                
+            <p>What sort of dwelling to you reside in?</p>
+                <input name="home" type="radio" value="2" id="walkup"/> 
+                <label for="walkup" style="font-size:12px;">Walk-Up</label><br>
+                
+                <input name="home" type="radio" value="1" id="house"/> 
+                <label for="house" style="font-size:12px;">House</label><br>
+                
+                <input name="home" type="radio" value="3" id="elevator"/>
+                <label for="elevator" style="font-size:12px;">Elevator</label><br>
+                
+            <p>How many roommates do you have?</p>
+                <input name="roommates" type="radio" value="1" id="zero"/>  
+                <label for="zero" style="font-size:12px;">I have no roomies.</label><br>
+                
+                <input name="roommates" type="radio" value="2" id="justone" />
+                <label for="justone" style="font-size:12px;"> Just one, dude. </label><br>
+                
+                <input name="roommates" type="radio" value="3" id="twoormore" />
+                <label for="twoormore" style="font-size:12px;">Two or more, how do you think I afford NYC?</label><br>
+            
+            <p>It's rush hour in Herald Square. As the Q train pulls up you can see there is one seat available and you think you can get to it. Do you:</p>
+                <input name="subway" type="radio" value="2" id="stand" />
+                <label for="stand" style="font-size:12px;">Stand and allow another passenger to sit.</label><br>
+                
+                <input name="subway" type="radio" value="1" id="wait"/>
+                <label for="wait" style="font-size:12px;">Wait for a second, and if no one takes it go for it.</label><br>
+                
+                <input name="subway" type="radio" value="3" id="throwbows"/>
+                <label for="throwbows" style="font-size:12px;">Throw dem 'bows.</label><br>
+                
+            <button type="submit"> Click here to find your spirit animal!</button>
+        </form>
+    </body>
+</html>
